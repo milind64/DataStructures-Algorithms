@@ -3,7 +3,7 @@ using namespace std;
 
 void decreaSort(int p[],int w[],int m)
 {
-    
+
 }
 
 void Knapsack(int p[],int w[],int m)
@@ -21,7 +21,7 @@ int main()
     t = 0;
     cout<<"Enter the Profit with Weight :\n";
     while(t<m){ 
-        cin>>p[m-t]>>w[m-t];
+        cin>>p[t]>>w[t];
         t++;
     }
     Knapsack(p,w,m);
