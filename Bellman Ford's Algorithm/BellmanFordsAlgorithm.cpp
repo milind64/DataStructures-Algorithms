@@ -20,7 +20,7 @@ struct Graph *createGraph(int V, int E)
 
 void printArr(int dist[], int n)
 {
-    printf("Vertex   Distance from Source\n");
+    printf("Vertex \t\tDistance from Source\n");
     for (int i = 0; i < n; ++i)
         printf("%d \t\t %d\n", i, dist[i]);
 }
